@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid grey;
 }
 
 html, body {
@@ -64,3 +65,204 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* INDEX PAGE */
+
+
+.indexPageContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 5%;
+}
+
+nav{
+	padding-bottom: 5%;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.indexPageLinks{
+	width: 70%;
+	display: flex;
+	justify-content: space-between; 
+}
+
+.indexNavLogo{
+	width: 20%;
+}
+
+.titlesection{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 5%;
+}
+
+.title{
+	text-align: center;
+	padding-bottom: 5%;	
+	width: 48%;
+}
+
+h1{
+	font-size: 70px;
+}
+
+button{
+	font-size: 110%;
+	padding: 1% 10%;
+}
+.circle{
+	width: 48%;
+}
+
+.featuresAbout{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	padding-bottom: 5%;
+	padding-top: 5%;
+	border-top: 1px solid black;
+}
+
+.featuresAbout div{
+	padding: 2%;
+}
+
+.servicesProductVision{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between; 
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.servicesProductVision div{
+	padding: 2%;
+}
+
+.contact{
+	border-top: 1px solid black;
+	padding-top: 5%;
+}
+
+.contact p{
+padding-top: 3%;
+}
+
+footer{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+
+
+/* SERVICES PAGE */
+
+.servicesPageContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	max-width:1000px;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+nav{
+	padding-bottom: 5%;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+}
+
+.servicePageLinks{
+	width: 70%;
+	display: flex;
+	justify-content: space-between; 
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+.servicesDescription{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+	border-bottom: 1px solid black;
+}
+
+h2{
+	font-size: 150%;
+}
+
+.servicesDescription p{
+	line-height: 130%;
+}
+
+.servicesDetail{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	border-bottom: 1px solid black;
+}
+
+.servicesDetail div{
+	border: 1px solid black;
+	background-color:lightgrey;
+	width: 48%;
+	padding: 2%;
+	margin-bottom: 5%;
+	line-height: 130%;
+}
+
+.learnMore{
+	border-radius: 8px;
+	margin-top: 5%;
+	font-size: 80%;
+	width: 35%;
+	padding: 2%;
+}
+
+.someFacts{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10%;
+	padding-top: 5%;
+}
+
+.someFacts div{
+	width: 48%;
+}
+
+.lhs p{
+	padding-top: 2%;
+	line-height: 130%;
+}
+
+.services-info-img{
+	width: 100%;
+}
+
+ul{
+	padding-top: 5%;
+	list-style-type: square;
+	list-style-position: inside; 
+	line-height: 200%;
+}
+
+.copyright{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
